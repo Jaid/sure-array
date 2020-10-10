@@ -9,7 +9,8 @@ const indexModule = require(process.env.MAIN ? path.resolve(process.env.MAIN) : 
 const {default: sureArray} = indexModule
 
 it("should run", () => {
-  const result = sureArray()
-  expect(result).toBeGreaterThan(1514764800) // Jan 01 2018 or greater
-  expect(result).toBeLessThan(3786912000) // Jan 01 2090 or lower
+  expect(sureArray()).toStrictEqual([])
+  expect(sureArray(null)).toStrictEqual([null])
+  expect(sureArray(0)).toStrictEqual([0])
+  expect(sureArray([0])).toStrictEqual([0])
 })
