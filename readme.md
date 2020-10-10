@@ -41,7 +41,8 @@ npm install --save @jaid/sure-array@^0.1.0
 import sureArray from "sure-array"
 
 const result = sureArray(123)
-const resul2 = sureArray([123])
+const result2 = sureArray([123])
+const result3 = sureArray()
 ```
 
 Variable `result` will be:
@@ -53,6 +54,11 @@ Variable `result2` will be:
 
 ```javascript
 [123]
+```
+Variable `result3` will be:
+
+```javascript
+[]
 ```
 
 
