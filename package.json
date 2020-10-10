@@ -34,5 +34,16 @@
     "type": "git",
     "url": "https://github.com/jaid/sure-array"
   },
-  "keywords": []
+  "keywords": [
+    "array",
+    "collection",
+    "convert",
+    "library",
+    "micropackage",
+    "node",
+    "node-js",
+    "nodejs",
+    "util",
+    "utility"
+  ]
 }
