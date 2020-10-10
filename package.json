@@ -2,7 +2,7 @@
   "name": "sure-array",
   "description": "Converts the input into an array or returns it if it is already an array.",
   "webpackConfigJaid": "universalLib",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {},
   "devDependencies": {
